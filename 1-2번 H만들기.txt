@@ -1,0 +1,15 @@
+def Hform(x):
+	a="*"*x+" "*x+"*"*x
+	b="*"*x+"*"*x+"*"*x
+	for n in range(1,3*x+1):
+		if(n<=x):
+			print a
+		if(x<n<=2*x):
+			print b
+		if(2*x<n<=3*x):
+			print a
+
+
+
+		
+    

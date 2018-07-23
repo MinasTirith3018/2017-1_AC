@@ -1,0 +1,11 @@
+a,b=input("Input two integers please (with a comma in between) : ")
+
+
+if(a<=b):
+  print "two integers: ",a,"   ","and ",b
+  print "quotient    : ",int(b/a)
+  print "remainder   : ",b%a
+else:
+  print "two integers: ",a,"   ","and ",b
+  print "quotient    : ",int(a/b)
+  print "remainder   : ",a%b

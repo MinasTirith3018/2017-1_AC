@@ -1,0 +1,6 @@
+def pyramid(u):
+
+ a=range(1,u)
+
+for n in a:
+  print '*'*n 
